@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "PortfolioApp",
-    "slug": "PortfolioApp",
+    "slug": "portfolioapp",
+    "owner": "portfolioproject",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hndrix.PortfolioApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c8e71869-b1ed-426b-87cf-b4f0d831b743"
+      }
     }
   }
 }
